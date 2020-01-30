@@ -1,8 +1,7 @@
 
 
-[![Build Status](https://travis-ci.com/SuperCaliMan/CustomCalendar.svg?token=JDhHLN4a6eXQ6S7wR9SA&branch=master)](https://travis-ci.com/SuperCaliMan/CustomCalendar)
-[![Version status](https://jitpack.io/v/SuperCaliMan/CustomCalendar.svg)](https://jitpack.io/v/SuperCaliMan/CustomCalendar)
-# CustomCalendar 
+
+# CustomCalendar [![Build Status](https://travis-ci.com/SuperCaliMan/CustomCalendar.svg?token=JDhHLN4a6eXQ6S7wR9SA&branch=master)](https://travis-ci.com/SuperCaliMan/CustomCalendar) [![Version status](https://jitpack.io/v/SuperCaliMan/CustomCalendar.svg)](https://jitpack.io/v/SuperCaliMan/CustomCalendar)
 A calendar custom view for Android
 
 ![Screencap](img/screen.gif)
