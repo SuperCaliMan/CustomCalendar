@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@+id/cell_layout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/stroke_single_cell"
+    android:padding="1dp">
+
+    <RelativeLayout
+        android:id="@+id/prova"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:padding="4dp">
+
+        <TextView
+            android:id="@+id/calendar_date_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:fontFamily="@font/helveticabold"
+            android:text="  "
+            android:textColor="@color/txt_color_day_off"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/event_wrapper"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/padding_top_row"
+        android:layout_marginStart="2dp"
+        android:layout_marginEnd="2dp"
+        android:layout_marginBottom="2dp"
+        android:orientation="vertical">
+
+        <!--             android:background="#97CC04" -->
+        <TextView
+            android:id="@+id/first_event_bar"
+            android:layout_width="match_parent"
+            android:layout_height="9dp"
+            android:layout_marginBottom="1dp"/>
+
+        <!-- android:background="#3454D1" -->
+        <TextView
+            android:id="@+id/second_event_bar"
+            android:layout_width="match_parent"
+            android:layout_height="9dp"
+           />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="custom_calendar_attrs">
+        <attr name="weeks" format="integer"/>
+        <attr name="firstBarColor" format="color"/>
+        <attr name="secondBarColor" format="color"/>
+    </declare-styleable>
+</resources>

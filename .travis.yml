@@ -1,0 +1,34 @@
+language: android
+android:
+  components:
+    - tools
+    - platform-tools
+    - build-tools-28.0.3
+    - android-22
+    - android-28
+    - extra-google-google_play_services
+    - extra-google-m2repository
+    - extra-android-m2repository
+    - addon-google_apis-google-22
+    - sys-img-armeabi-v7a-android-22
+  licenses:
+    - android-sdk-preview-license-.+
+    - android-sdk-license-.+
+    - google-gdk-license-.+
+
+before_script:
+  - chmod +x gradlew
+
+script:
+  - ./gradlew build
+  - ./gradlew assemble
+
+##create release and upload on github
+deploy:
+  provider: releases
+  api_key:
+    secure: 550386e4aefa384a4d7eedc0dfc38fe951e87752
+  file: customcalendar/build/outputs/aar/customcalendar-release.aar
+  skip_cleanup: true
+  on:
+    tags: true

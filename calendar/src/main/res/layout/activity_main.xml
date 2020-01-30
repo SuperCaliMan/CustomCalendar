@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <com.github.customcalendar.CustomCalendarView
+        android:id="@+id/custom_calendar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:weeks="6"
+        app:firstBarColor ="#0000FF"
+        app:secondBarColor = "#F000F0">
+    </com.github.customcalendar.CustomCalendarView>
+
+</LinearLayout>
