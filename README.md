@@ -32,8 +32,8 @@ dependencies {
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:weeks="6"
-        app:firstBarColor ="#0000FF"
-        app:secondBarColor = "#F000F0">
+        app:firstBarColor="#0000FF"
+        app:secondBarColor= "#F000F0">
 </com.github.customcalendar.CustomCalendarView>
 ```
 
