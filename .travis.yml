@@ -27,7 +27,7 @@ script:
 deploy:
   provider: releases
   api_key:
-    secure: f23c42405ba9a4c5870c2da4ca0815d9d222ec0e
+    secure: 561cc659deec8fb26a944231d9dafd9714d825d7
   file: customcalendar/build/outputs/aar/customcalendar-release.aar
   skip_cleanup: true
   on:
