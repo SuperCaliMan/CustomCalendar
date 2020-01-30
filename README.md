@@ -7,6 +7,14 @@ A calendar custom view for Android
 ![Screencap](img/screen.gif)
 
 ## Download
+```
+allprojects {
+  repositories {
+    ...
+    maven { url "https://jitpack.io" }
+  }
+}
+```
 
 ```
 dependencies {
